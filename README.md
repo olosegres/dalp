@@ -5,7 +5,7 @@ It is to provide uniform interface to access data from different sources.
 You can work with both local data and data on different servers in the uniform way, using standardized queries.
 
 Query subscriptions:
-```
+```javascript
 dalp.subscribe({
     find: 'article',
     filter: {
@@ -17,7 +17,7 @@ dalp.subscribe({
 ```
 
 Simple execution:
-```
+```javascript
 dalp.execute({
     create: 'order',
     data: {
